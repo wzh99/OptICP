@@ -2,7 +2,7 @@
 
 ## 简介
 
-本项目为上海交通大学计算机图形学（CS337）课程大作业，由[王梓涵][https://github.com/wzh99]和[刘权](https://github.com/liuQuan98/)完成。
+本项目为上海交通大学计算机图形学（CS337）课程大作业，由[王梓涵](https://github.com/wzh99)和[刘权](https://github.com/liuQuan98/)完成。
 
 本小组在现有标准 ICP 和 Go-ICP 代码基础上尝试若干性能优化。
 
