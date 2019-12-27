@@ -21,11 +21,11 @@ GoICP::GoICP(/* ICP parameters */ float corresThresh, uint32_t maxIter, float tr
     initNodeTrans.lb = 0;
 }
 
-// Cloud setting (make sure to call it before DT building!)
 void GoICP::SetSource(PointCloudPtr src) {
     pData = src;
 }
 
+// Cloud setting and DT building (make sure to call this before calling Register())
 void GoICP::SetTarget(PointCloudPtr tgt) {
     pModel = tgt;
     icp.SetTarget(pModel);
